@@ -1,0 +1,125 @@
+/* TODO: 보기 좋은 나만의 아고라 스테이츠를 위해서 CSS를 수정하세요. */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 540px;
+    background-color: rgb(197, 175, 213);
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+li.discussion__container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 20px 0px;
+    margin: 20px;
+    border-bottom: 1px solid black;
+}
+
+li{
+    list-style: none;
+}
+
+/* 입력창 */
+section.form__container{
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+form.form{
+    display: flex;
+    flex-direction: row;
+}
+
+input#name{
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+textarea#story{
+    width: 420px;
+    height: 80px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+div.form__submit > input{
+    width: 40px;
+    height: 80px;
+    margin-top: 55px;
+}
+
+div.form__textbox{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+div.form__textbox > textarea{
+    padding: 10px;
+}
+/* 아바타 */
+div.discussion__avatar--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    
+}
+
+div.discussion__avatar--wrapper > img{
+    border-radius: 50px;
+    width: 48px;
+}
+
+/* 제목 */
+div.discussion__content{
+    /* margin-right: 150px; */
+    width: 400px;
+}
+h3.discussion__title{
+    width: 400px;
+}
+div.discussion__content > a {
+    text-decoration: none;
+    color: black;
+    
+}
+div.discussion__content > a:visited {
+    text-decoration: none;
+    color: gray
+}
+
+/* 체크 */
+div.discussion__answered{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+
+}
